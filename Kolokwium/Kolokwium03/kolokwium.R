@@ -50,7 +50,7 @@ summary(X)
 
 # b)
 
-hist_data <- hist(X, freq = TRUE)
+hist_data <- hist(X, freq = FALSE)
 (mid_point <- hist_data$mids)
 
 # Środki przedziałów klasowych: 17.5 22.5 27.5 32.5 37.5 42.5 47.5 52.5
