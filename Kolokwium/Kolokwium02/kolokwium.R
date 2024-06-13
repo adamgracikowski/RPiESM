@@ -158,7 +158,7 @@ simplify2array(tapply(
   types, 
   function(x) { shapiro.test(x)[1:2] }))
 
-# A         B         C          D        
+#           A         B         C          D        
 # statistic 0.849288  0.9634323 0.8046868  0.8991561
 # p.value   0.1922786 0.8316584 0.08843554 0.4052386
 

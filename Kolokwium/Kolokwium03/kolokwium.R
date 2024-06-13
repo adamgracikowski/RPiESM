@@ -81,16 +81,25 @@ can_reject(pvalue, 0.05)
 # ze wzoru z karty wzorów:
 
 n <- length(X)
-s <- sd(X)
 alpha <- 0.05
 
 chi_left <- qchisq(1 - alpha/2, n - 1)
 chi_right <- qchisq(alpha/2, n - 1)
 
-(conf_int <- (n - 1) * s / sqrt(c(chi_left, chi_right)))
+(conf_int <- sqrt((n - 1) * var(X)/c(chi_left, chi_right)))
 
-# Przedział ufności: 101.1269 123.1434
+# Przedział ufności: 7.168693 8.729407
 
+# Alternatywnie możemy skorzystać z funkcji sigma.test() z pakietu TeachingDemos:
+
+if (!require("TeachingDemos", quietly = TRUE)) {
+  install.packages("TeachingDemos")
+}
+library("TeachingDemos", character.only = TRUE)
+
+(conf_interval <- sqrt(sigma.test(X, conf_level = 1 - alpha)$conf))
+
+# Przedział ufności: 7.168693 8.729407
 
 # zadanie 3 ---------------------------------------------------------------
 
