@@ -12,3 +12,7 @@ Zawartość repozytorium:
 - Lab04: [Testy parametryczne dla dwóch populacji](https://github.com/adamgracikowski/RPiESM/tree/main/Lab04)
 - Lab05: [Testowanie zgodności](https://github.com/adamgracikowski/RPiESM/tree/main/Lab05)
 - Lab06: [Jednoczynnikowa analiza wariancji](https://github.com/adamgracikowski/RPiESM/tree/main/Lab06)
+- Kolokwium:
+    - [Kolokwium01](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium01)
+    - [Kolokwium02](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium02)
+    - [Kolokwium03](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium03)
