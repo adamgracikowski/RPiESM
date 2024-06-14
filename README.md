@@ -16,3 +16,4 @@ Zawartość repozytorium:
     - [Kolokwium01](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium01)
     - [Kolokwium02](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium02)
     - [Kolokwium03](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium03)
+    - [Kolokwium04](https://github.com/adamgracikowski/RPiESM/tree/main/Kolokwium/Kolokwium04)
